@@ -2,6 +2,7 @@
 header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 header('Acess-Control-Allow-Methods: POSTS');
+header('Access-Control-Max-Age: 3600');
 header('Access-Control-Allow-Headers: Access-Control-Allow-Headers,Content-Type,Acess-Control-Allow-Methods,Authorization,X-Requested-With');
 
 include_once '../configuration/database.php';
